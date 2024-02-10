@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2? family= Croissant+One & family= Krona+One & family= Montserrat:wght@400;600 & family= Mooli & família= Noto+Cor+Emoji & display=trocar');  /*importando a fonte de texto do google fonts */
+
+:root{
+  --cor-primaria:   #000000;
+  --cor-secundaria: #f6f6f6;
+  --cor-terciaria:  #22D4fd;
+  --cor-quartenaria: #068DA9;
+  --fonte-primaria:   font-family: 'Krona One', sans-serif;
+  --fonte-secundaria: font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0.1%;
+    padding: 0%;
+  }
+
+  body {
+  background-image: url("img/fundo-azul.jpg");
+  background-size:cover;
+}
+
+.cabecalho__menu{
+    position: absolute;
+    top: 50;
+    left: 50;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.cabecalho__menu__link{
+    list-style: none;
+}
+
+.cabecalho__menu__link a{
+    position: relative;
+    text-transform: uppercase;
+    margin: 20px 0;
+    padding: 100px 50px;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+}
+
+
+  .logo-apresentacao{
+    height: 150px;
+  }
+
+  a:visited {
+    text-decoration: overline;
+    color:#22D4fd;
+  }
+
+  .login-cadastro{
+    text-decoration: underline;
+    color:#22D4fd;
+    text-align: right;
+  }
+
+  .cabecalho{
+    padding: 0% 0% 0% 12%;
+  }
+
+.apresentacao__conteudo{
+  padding: 24px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+}
+
+.apresentacao__conteudo__sobrenos{
+    padding: 10px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    height: 80vh;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+.imagem__destaque__sobre__nos{
+    width: 80%;
+}
+
+.apresentacao__conteudo__titulo{
+    padding: 32px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-terciaria);    
+}
+
+.apresentacao__curso{
+  list-style: none; 
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+}
+
+.apresentacao__equipe{
+  display: flex; 
+  list-style: none; 
+}
+
+.foto-integrante__equipe{
+  height: 100px;
+}
+
+.logo-rede-social{
+height: 20px;
+}
+
+.rodape__pagina{
+    text-align: center; 
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    padding: 15px;
+    font-family: var(--fonte-secundaria);
+    font-size: 15px;
+    font-weight: 100;
+  }
