@@ -1,0 +1,12 @@
+.apresentacao__equipe{
+  display: flex; 
+  list-style: none; 
+}
+
+.foto-integrante__equipe{
+  height: 100px;
+}
+
+.logo-rede-social{
+height: 20px;
+}
