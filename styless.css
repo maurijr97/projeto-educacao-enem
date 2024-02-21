@@ -40,8 +40,6 @@
     color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
 }
-
-
   .logo-apresentacao{
     height: 150px;
   }
@@ -58,7 +56,7 @@
   }
 
   .cabecalho{
-    padding: 0% 0% 0% 12%;
+    padding: 0% 0% 0% 10%;
   }
 
 .apresentacao__conteudo{
@@ -103,6 +101,14 @@
 
 .logo-rede-social{
 height: 20px;
+}
+
+.icone__login{
+  height: 12px; 
+}
+
+.imagem__principal__tela__login{
+  height: 600px;
 }
 
 .rodape__pagina{

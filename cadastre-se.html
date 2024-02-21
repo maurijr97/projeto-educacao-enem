@@ -2,19 +2,80 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styless.css">
     <link rel="stylesheet" href="teste.js">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto - Decola ENEM</title>
     <link rel="stylesheet" href="./styles/styles.css">
-    <a class="cabecalho__menu__link" href="home.html"> <img class="logo-apresentacao" src="img/logo_docola_enem.png" href="home.html"> </a>
 </head>
     <body>
 
         <main> 
             <section>
                 <h1 class="apresentacao__conteudo__titulo">Cadastre-se</h1>
+                <form class="apresentacao__login">
+
+                    <a class="cabecalho__menu__link" href="home.html"> <img class="logo-apresentacao" src="img/logo_docola_enem.png" href="home.html"> </a>
+                    <br>
+                    <label for="nome"> </label>
+                    <img class="icone__login" src="img/do-utilizador.png" >
+                    <input type= "nome" id="nome" class="input__padrao" required placeholder="Nome Completo"> 
+                    <br>
+
+                    <label for="email"> </label>
+                    <img class="icone__login" src="img/envelope.png" >
+                    <input type= "email" id="email" class="input__padrao" required placeholder="Dígite seu e-mail"> 
+                    <br>
+
+                    <label for="contato"> </label>
+                    <img class="icone__login" src="img/chamada-telefonica.png" >
+                    <input type= "contato" id="contato" class="input__padrao" required placeholder="Dígite seu contato celular"> 
+                    <br>
+
+                    <label for="data__nascimento"> </label>
+                    <img class="icone__login" src="img/calendario.png" >
+                    <input type= "data__nascimento" id="data__nascimento" class="input__padrao" required placeholder="Dígite sua data de nascimento"> 
+                    <br>
+
+                    <label for="senha"> </label>
+                    <img class="icone__login" src="img/trancar.png">
+                        <select>
+                            <option> Selecione sua Formação Acadêmica</option>
+                            <option> Ensino Fundamental Completo</option>
+                            <option> Ensino Fundamental Incompleto</option>
+                            <option> Ensino Médio Completo</option>
+                            <option> Ensino Médio Incompleto</option>
+                            <option> Ensino Superior Completo</option>
+                            <option> Ensino Superior Incompleto</option>
+                            <option> Ensino Técnico Completo</option>
+                            <option> Ensino Técnico Incompleto</option>
+                        </select>
+                    <br>
+                    <div>
+                        <label for="feminino"><input type="radio" name="genero" valus="Email" id="feminino"> Feminino</label>
+        
+                        <label for="masculino"> <input type="radio" name="genero" valus="Telefone" id="masculino"> Masculino</label>
+        
+                        <label for="outro"> <input type="radio" name="genero" valus="Whatsapp" id="outro" checked> Outros </label>
+        
+                    </div>
+                    <br>
+                    <label for="senha"> </label>
+                    <img class="icone__login" src="img/trancar.png" >
+                    <input type= "senha" id="senha" class="input__padrao" required placeholder="Criei uma senha - Mínimo 4 dígitos"> 
+                    <br>
+                    <p>
+                        Ao clicar em Cadastre-se, você esta concordando com nosso <strong class="titulo-destaque">Termo, Politica de Privacidade e Politica de Cookies.</strong> Você poderá receber notificaçoes por SMS e cancelar isso quando quiser.
+                    </p>
+                
+                <img class="imagem__principal__tela__login" src="img/img_estudante.png" alt="imagem_casal_estudantes">
+                <div>
+                    <a class="botao" href="cadastre-se.html"> CADASTRE-SE </a>
+                </div>
+
+            </form>
+
             </section>
         </main>
                 
