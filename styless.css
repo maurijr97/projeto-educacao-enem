@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family= Croissant+One & family= Krona+One & family= Montserrat:wght@400;600 & family= Mooli & família= Noto+Cor+Emoji & display=trocar');  /*importando a fonte de texto do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');  /*importando a fonte de texto do google fonts */
 
 :root{
   --cor-primaria:   #000000;
@@ -7,7 +7,9 @@
   --cor-quartenaria: #068DA9;
   --fonte-primaria:   font-family: 'Krona One', sans-serif;
   --fonte-secundaria: font-family: 'Montserrat', sans-serif;
-}
+  --fonte-terciaria:  font-family: "Libre Baskerville", serif;
+  --fonte-quartenaria: font-family: "Playfair Display", serif;
+}/*variaveis com as cores e fontes que usaremos no projeto - Aceito sugestões*/
 
 * {
     margin: 0.1%;
@@ -17,56 +19,77 @@
   body {
   background-image: url("img/fundo-azul.jpg");
   background-size:cover;
+}/*inseri a imagem azul de fundo*/
+
+#button_menu{
+    padding: 100;
 }
 
-.cabecalho__menu{
-    position: absolute;
-    top: 50;
-    left: 50;
-    transform: translate(-50%, -50%);
-    display: flex;
+#button_menu li{
+  display: inline;
 }
 
-.cabecalho__menu__link{
-    list-style: none;
+#button_menu li a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  float: left;
+  padding: 13px;
+  background-color: var(--cor-quartenaria);
+  color: var(--cor-secundaria);
+  border-radius: 02px
 }
 
-.cabecalho__menu__link a{
-    position: relative;
-    text-transform: uppercase;
-    margin: 20px 0;
-    padding: 100px 50px;
-    text-decoration: none;
-    color: var(--cor-terciaria);
-    font-family: var(--fonte-secundaria);
+#button_menu li a:hover {
+  background-color: var(--cor-terciaria);
+  margin-top: -2px;
+  padding-bottom: 12px;
 }
+
+#button_login_cadastro{
+  padding: 100;
+}
+
+#button_login_cadastro li{
+display: inline;
+}
+
+#button_login_cadastro li a {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 10px;
+text-decoration: none;
+float: right;
+padding: 10px;
+background-color: var(--cor-quartenaria);
+color: var(--cor-secundaria);
+border-radius: 02px
+}
+
+#button_login_cadastro li a:hover {
+background-color: var(--cor-terciaria);
+margin-top: -2px;
+padding-bottom: 12px;
+}
+
   .logo-apresentacao{
-    height: 150px;
-  }
-
-  a:visited {
-    text-decoration: overline;
-    color:#22D4fd;
-  }
-
-  .login-cadastro{
-    text-decoration: underline;
-    color:#22D4fd;
-    text-align: right;
+    height: 100px;
   }
 
   .cabecalho{
-    padding: 0% 0% 0% 10%;
+    padding: 10% 0% 0% 20%;
   }
 
 .apresentacao__conteudo{
-  padding: 24px;
+  padding: 28px;
   font-family: var(--fonte-secundaria);
   color: var(--cor-secundaria);
 }
+main{
+  padding: 16px;
+}
 
 .apresentacao__conteudo__sobrenos{
-    padding: 10px;
+    padding: 20px;
     font-family: var(--fonte-secundaria);
     color: var(--cor-secundaria);
     height: 80vh;
@@ -74,14 +97,10 @@
     grid-template-columns: 50% 50%;
 }
 
-.imagem__destaque__sobre__nos{
-    width: 80%;
-}
-
-.apresentacao__conteudo__titulo{
-    padding: 32px;
+.apresentacao__titulo{
+    padding: 38px;
     font-family: var(--fonte-secundaria);
-    color: var(--cor-terciaria);    
+    color: var(--cor-terciaria);   
 }
 
 .apresentacao__curso{
@@ -90,27 +109,23 @@
   color: var(--cor-secundaria);
 }
 
+
 .apresentacao__equipe{
   display: flex; 
   list-style: none; 
 }
 
+.imagem__destaque__sobre__nos{
+  height: 800px;
+}
+
 .foto-integrante__equipe{
-  height: 100px;
+  height: 120px;
 }
 
 .logo-rede-social{
 height: 20px;
 }
-
-.icone__login{
-  height: 12px; 
-}
-
-.imagem__principal__tela__login{
-  height: 600px;
-}
-
 .rodape__pagina{
     text-align: center; 
     background-color: var(--cor-terciaria);
