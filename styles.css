@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');  /*importando a fonte de texto do google fonts */
+
+:root{
+  --cor-primaria:   #000000;
+  --cor-secundaria: #f6f6f6;
+  --cor-terciaria:  #22D4fd;
+  --cor-quartenaria: #068DA9;
+  --fonte-primaria:   font-family: 'Krona One', sans-serif;
+  --fonte-secundaria: font-family: 'Montserrat', sans-serif;
+  --fonte-terciaria:  font-family: "Libre Baskerville", serif;
+  --fonte-quartenaria: font-family: "Playfair Display", serif;
+}/*variaveis com as cores e fontes que usaremos no projeto - Aceito sugestões*/
+
+* {
+    margin: 0.1%;
+    padding: 0%;
+    font-family: Helvetica, sans-serif;
+  }
+
+  header{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+
+  header ul{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+  }
+
+  body {
+  background-image: url("img/fundo-azul.jpg");
+  background-size:cover;
+}/* Configuração Padrão - inseri a imagem azul de fundo*/
+
+/* Configuração Padrão - do menu da página*/
+#button_menu{
+  padding: 10px;
+}
+
+#button_menu li{
+  display: inline;
+}
+
+/* Configuração Padrão - menu - estilo da fonte e cor da letra*/
+#button_menu li a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  float:left;
+  padding: 18px;
+  background-color: var(--cor-quartenaria);
+  color: var(--cor-secundaria);
+  border-radius: 03px;
+  height: 30px;
+}
+
+/* Configuração Padrão - menu - cor ao passar o mouse sobre*/
+#button_menu li a:hover {
+  background-color: var(--cor-terciaria);
+  margin-top: -2px;
+  padding-bottom: 12px;
+}
+
+/* Configuração Padrão - menu - distância entre as opções dos menus*/
+#button_login_cadastro{
+  padding: 02px;
+}
+
+/* Configuração Padrão - menu */
+#button_login_cadastro li{
+display: inline;
+}
+
+/* Configuração Padrão - menu */
+#button_login_cadastro li a {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 10px;
+text-decoration: none;
+float: right;
+padding: 10px;
+background-color: var(--cor-quartenaria);
+color: var(--cor-secundaria);
+border-radius: 02px
+}
+
+#button_login_cadastro li a:hover {
+background-color: var(--cor-terciaria);
+margin-top: -2px;
+padding-bottom: 12px;
+}
+
+/* Configuração Padrão - Logo principal - configuração do tamanho logo*/
+  .logo-apresentacao{
+    height: 100px;
+    padding-right: 30px;
+  }
+
+  /* Configuração Padrão - cabeçario principal - configuração da distância*/
+  .cabecalho{
+    padding: 10% 0% 0% 20%;
+  }
+
+/* Configuração Padrão - rodapé*/
+.rodape__pagina{
+    text-align: center; 
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    padding: 15px;
+    font-family: var(--fonte-secundaria);
+    font-size: 15px;
+    font-weight: 100;
+  }
+
+  /* Página sobre_nós - configuração conteudo princiapal*/
+.apresentacao__conteudo{
+  padding: 50px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+}
+main{
+  padding: 20px;
+}
+
+/* Página sobre_nós - configuração do texto princiapal da página*/
+.apresentacao__conteudo__sobrenos{
+    padding: 30px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Página sobre_nós - configuração da imagem princial*/
+.imagem__destaque__sobre__nos{
+  height: 500px;
+}
+
+/* Página sobre_nós - configuração do título principal*/
+.apresentacao__titulo{
+    padding: 38px 38px 0px 38px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-terciaria);   
+}
+.apresentacao__conteudo__titulo{
+  padding: 30px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-terciaria); 
+  font-size: 24px;  
+  text-align: center;
+}
+
+/* Página sobre_nós - configuração do título*/
+.apresentacao__curso{
+  list-style: none; 
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+}
+
+.apresentacao__curso_lista{
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: 20px;
+  padding-left: 38px;
+}
+
+/* Página sobre_nós - configuração do título*/
+
+.apresentacao__titulo_equipe{
+  padding: 38px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-terciaria);
+  font-size: 24px;
+}
+
+.apresentacao__equipe{
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.apresentacao__equipe li{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.equipe__lista_nome{
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: 21px;
+  text-align: center; 
+}
+
+.equipe__lista_profissao{
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  text-align: center; 
+  padding-bottom: 10px;
+}
+
+/* Página sobre_nós - configuração da imagem dos integrantes da equipe*/
+.foto-integrante__equipe{
+  height: 120px;
+}
+
+/* Página sobre_nós - configuração da imagem das redes sociais*/
+.logo-rede-social{
+height: 30px;
+}
+
+.apresentacao__rede-social{
+display: flex;
+flex-direction: row;
+}
+

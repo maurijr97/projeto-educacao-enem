@@ -1,49 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styless.css">
-    <link rel="stylesheet" href="teste.js">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="teste.js" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto - Decola ENEM</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-</head>
-    <body>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <form class="apresentacao__login">
+          <a class="cabecalho__menu__link" href="home.html">
+            <img
+              class="logo-apresentacao"
+              src="img/logo_docola_enem.png"
+              href="home.html"
+            />
+          </a>
+          <br />
+          <label for="email"> </label>
+          <img class="icone__login" src="img/do-utilizador.png" />
+          <input
+            type="email"
+            id="email"
+            class="input__padrao"
+            required
+            placeholder="Dígite seu e-mail"
+          />
+          <br />
+          <label for="senha"> </label>
+          <img class="icone__login" src="img/trancar.png" />
+          <input
+            type="senha"
+            id="senha"
+            class="input__padrao"
+            required
+            placeholder="Dígite sua senha"
+          />
+          <br />
 
-        <main> 
-            <section>
-                    <form class="apresentacao__login">
+          <a class="recuperar_senha__link" href="recuperar_senha.html"
+            >Esqueci a senha
+          </a>
+          <br />
 
-                        <a class="cabecalho__menu__link" href="home.html"> <img class="logo-apresentacao" src="img/logo_docola_enem.png" href="home.html"> </a>
-                        <br>
-                        <label for="email"> </label>
-                        <img class="icone__login" src="img/do-utilizador.png" >
-                        <input type= "email" id="email" class="input__padrao" required placeholder="Dígite seu e-mail"> 
-                        <br>
-                        <label for="senha"> </label>
-                        <img class="icone__login" src="img/trancar.png" >
-                        <input type= "senha" id="senha" class="input__padrao" required placeholder="Dígite sua senha"> 
-                        <br>
+          <input class="botao" type="submit" value="ENTRAR" />
+          <a href="home.html"></a>
 
-                        <a class="recuperar_senha__link" href="recuperar_senha.html">Esqueci a senha </a>
-                        <br>
-                        
-                        <input class="botao" type="submit" value="ENTRAR"> <a href="home.html"></a>
-                    
-                    <div>
-                        <a class="cadastrar"> Ainda não possui conta? </a>
-                        <a class="botao" href="cadastre-se.html"> CADASTRE-SE </a>
-                    </div>
-                    
-                    <img class="imagem__principal__tela__login" src="img/casal-banner.png" alt="imagem_casal_estudantes">
+          <div>
+            <a class="cadastrar"> Ainda não possui conta? </a>
+            <a class="botao" href="cadastre-se.html"> CADASTRE-SE </a>
+          </div>
 
-                </form>
-            </section>
-        </main>
-                
-                <footer class="rodape__pagina">
-                    <p> Desenvolvido pela equipe projeto integrador - Proz - 2024 ©  </p>
-                </footer>
-    </body>
+          <img
+            class="imagem__principal__tela__login"
+            src="img/casal-banner.png"
+            alt="imagem_casal_estudantes"
+          />
+        </form>
+      </section>
+    </main>
+
+    <footer class="rodape__pagina">
+      <p>Desenvolvido pela equipe projeto integrador - Proz - 2024 ©</p>
+    </footer>
+  </body>
 </html>
