@@ -234,8 +234,7 @@ h1{
   text-align:left;
   padding: 40px 40px 0px 40px;
   font-family: var(--fonte-secundaria);
-  color: var(--cor-terciaria))
-
+  color: var(--cor-terciaria)
 }
 
 
@@ -303,4 +302,3 @@ h2{
   font-family: var(--fonte-secundaria); 
   color:var(--cor-quartenaria)
 }
-
