@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.lista-menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 15px;
+}
+
+.titulo-principal {
+  padding: 35px;
+  margin: 40px 0 0 80px;
+}
+
+.texto-secundario {
+  padding: 35px;
+  margin: 40px 0 0 80px;
+}
+
+.titulo-materias {
+  text-align: center;
+  padding: 35px;
+  margin-top: 15px;
+}
+
+.lista-videos {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  list-style: none;
+}
+
+.youtube-thumb {
+  height: 100px;
+}
+
+.thumb-secundaria {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  padding: 15px;
+}
