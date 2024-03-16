@@ -31,16 +31,17 @@
     padding-left: 30px;
   }
 
+/* Configuração Padrão - inseri a imagem azul de fundo*/
   body {
   background-image: url("img/fundo-azul.jpg");
   background-size:cover;
-}/* Configuração Padrão - inseri a imagem azul de fundo*/
+}
 
 /* Configuração Padrão - do menu da página*/
 #button_menu{
   padding: 10px;
 }
-
+/* Configuração Padrão - menu da pagina*/
 #button_menu li{
   display: inline;
 }
@@ -87,6 +88,7 @@ color: var(--cor-secundaria);
 border-radius: 02px
 }
 
+/* Configuração Padrão - menu */
 #button_login_cadastro li a:hover {
 background-color: var(--cor-terciaria);
 margin-top: -2px;
@@ -147,6 +149,8 @@ main{
     font-family: var(--fonte-secundaria);
     color: var(--cor-terciaria);   
 }
+
+/* Página sobre_nós - configuração do título sec. principal*/
 .apresentacao__conteudo__titulo{
   padding: 30px;
   font-family: var(--fonte-secundaria);
@@ -161,7 +165,7 @@ main{
   font-family: var(--fonte-secundaria);
   color: var(--cor-secundaria);
 }
-
+/* Página sobre_nós - configuração equipe*/
 .apresentacao__curso_lista{
   font-family: var(--fonte-secundaria);
   color: var(--cor-secundaria);
@@ -170,14 +174,13 @@ main{
 }
 
 /* Página sobre_nós - configuração do título*/
-
 .apresentacao__titulo_equipe{
   padding: 38px;
   font-family: var(--fonte-secundaria);
   color: var(--cor-terciaria);
   font-size: 24px;
 }
-
+/* Página sobre_nós - configuração equipe*/
 .apresentacao__equipe{
   display: flex;
   list-style: none;
@@ -189,7 +192,7 @@ main{
   justify-content: center;
   align-items: center;
 }
-
+/* Página sobre_nós - configuração equipe*/
 .apresentacao__equipe li{
   width: 200px;
   display: flex;
@@ -197,6 +200,7 @@ main{
   align-items: center;
 }
 
+/* Página sobre_nós - configuração equipe*/
 .equipe__lista_nome{
   font-family: var(--fonte-secundaria);
   color: var(--cor-secundaria);
@@ -204,6 +208,7 @@ main{
   text-align: center; 
 }
 
+/* Página sobre_nós - configuração equipe*/
 .equipe__lista_profissao{
   font-family: var(--fonte-secundaria);
   color: var(--cor-secundaria);
@@ -221,6 +226,7 @@ main{
 height: 30px;
 }
 
+/* Página sobre_nós - configuração apresentacao das redes sociais*/
 .apresentacao__rede-social{
 display: flex;
 flex-direction: row;
