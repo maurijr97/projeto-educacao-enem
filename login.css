@@ -18,6 +18,9 @@ body {
 
 }
 
+/* A respeito do background, eu testei a seguinte configuração "background: linear-gradient(to bottom, #0074D9, #001f3f);".
+Ela traz quase o mesmo efeito da imagem de fundo azul, mas em uma qualidade melhor. */
+
 .main-login {
     width: 100vw;
     height: 100vh;
