@@ -302,3 +302,12 @@ h2{
   font-family: var(--fonte-secundaria); 
   color:var(--cor-quartenaria)
 }
+.texto_linguagem{
+  padding: 30px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
