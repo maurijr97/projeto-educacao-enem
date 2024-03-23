@@ -230,20 +230,19 @@ flex-direction: row;
 
 /* PAGÍNA DE MATEMATICA*/
 h1{ 
-  font-size: xx-large;
-  text-align:left;
-  padding: 40px 40px 0px 40px;
-  font-family: var(--fonte-secundaria);
-  color: var(--cor-terciaria)
+  padding: 38px 38px 0px 38px;
+    font-family: var(--cor-quartenaria);
+    color: var(--cor-terciaria); 
 }
 
-
 .apresentacao_conteudo_matematica{
-     Display: flex;
-     padding: 60px 60px 0px 60px;
-     font-family: var(--fonte-secundaria);
-     color: var(--cor-terciaria); 
-     font-size: x-large;
+  padding: 30px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 p{ 
   text-align:left;
@@ -251,10 +250,10 @@ p{
   
 }
 h2{
-  font-size: x-large;
+  font-size: 30px;
   text-align:left;
   padding: 60px 60px 0px 60px;
-  font-family: var(--fonte-secundaria);
+  font-family: var(--cor-terciaria);
   color: var(--cor-terciaria)
 }
 
@@ -262,16 +261,16 @@ h2{
   
      font-family: var(--fonte-secundaria);
      color: var(--cor-secundaria); 
-     font-size: x-large;
+     font-size: 30px;
 }
 .sem_medo{
-  font-size: x-large;
+  font-size: 30px;
   color: var(--cor_matematica) 
 
 }
   
 .veja_videos{
-  font-size: x-large;
+  font-size: 30px;
 }
 
 .imagem_youtube{
