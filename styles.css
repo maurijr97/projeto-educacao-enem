@@ -1,3 +1,4 @@
+/*Estilo padrão */
 * {
   padding: 0;
   margin: 0;
@@ -14,22 +15,6 @@ a {
   padding: 15px;
 }
 
-.titulo-principal {
-  padding: 35px;
-  margin: 40px 0 0 80px;
-}
-
-.texto-secundario {
-  padding: 35px;
-  margin: 40px 0 0 80px;
-}
-
-.titulo-materias {
-  text-align: center;
-  padding: 35px;
-  margin-top: 15px;
-}
-
 .lista-videos {
   display: flex;
   justify-content: space-around;
@@ -41,12 +26,8 @@ a {
   height: 100px;
 }
 
-.thumb-secundaria {
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-  margin-top: 25px;
-  margin-bottom: 15px;
+.texto-materia {
+  text-align: center;
 }
 
 .footer {
@@ -54,4 +35,83 @@ a {
   justify-content: center;
   background-color: aqua;
   padding: 15px;
+}
+
+/*Estilo da página de humanas */
+
+.titulo-principal-humanas {
+  padding: 35px;
+  margin: 40px 0 0 80px;
+}
+
+.texto-secundario-humanas {
+  padding: 35px;
+  margin: 40px 0 0 80px;
+}
+
+.titulo-materias-humanas {
+  text-align: center;
+  padding: 35px;
+  margin-top: 15px;
+}
+
+.thumb-secundaria-humanas {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+/*Estilo da página da natureza */
+.titulo-principal-natureza {
+  padding: 35px;
+  margin: 40px 0 0 80px;
+}
+
+.texto-secundario-natureza {
+  padding: 35px;
+  margin: 40px 0 0 80px;
+}
+
+.titulo-materias-natureza {
+  text-align: center;
+  padding: 35px;
+  margin-top: 15px;
+}
+
+.thumb-secundaria-natureza {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.imagem-menino {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.menino {
+  height: 450px;
+}
+
+.paragrafo-descritivo {
+  margin-top: 45px;
+}
+
+.titulo-secundario-natureza {
+  margin-top: 45px;
+}
+
+.titulo-resumo {
+  text-align: center;
 }
