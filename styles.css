@@ -232,21 +232,23 @@ display: flex;
 flex-direction: row;
 }
 
-/*class="apresentacao_titulo_redacao_nota_mil"*/
+/* Página redacao_nota_mil - Titulo*/
 .apresentacao_titulo_redacao_nota_mil{
-  padding: 38px 38px 0px 38px;
+  font-size: 28px;
   font-family: var(--fonte-secundaria);
   color: var(--cor-terciaria);
+  padding: 38px 38px 38px 0px;
 }
 
+/* Página redacao nota mil - Titulo secundário*/
 .apresentacao_titulo-secundario_redacao_nota_mil{
   font-family: var(--fonte-secundaria);
   color: var(--cor-terciaria);
-  text-align: none;
-  font-size: 22px;
-  padding-left: 2px;
+  font-size: 28px;
+  padding: 38px 38px 38px 0px;
 }
 
+/* Página redacao nota mil - Lista*/
 .lista_competencias{
   font-family: var(--fonte-secundaria);
   color: var(--cor-secundaria);
@@ -254,3 +256,41 @@ flex-direction: row;
   padding: 0px 100px 0px 2px;
 }
 
+/* Página redacao nota mil - competencia*/
+.modelo-competencia{
+  padding: 30px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* Página redacao nota mil - cartilha*/
+.cartilha{
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-terciaria);
+  font-size: 21px;
+}
+/* Página redacao nota mil - modelo redacao*/
+.modelo-redacao-nota-mil{
+  padding: 20px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: 20px;
+  display: flex;
+}
+/* Página redacao nota mil - subtitulo*/
+.subtitulo-redacao{
+  font-size: 24px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-terciaria);
+  padding: 18px 0px 0px 0px;
+  text-align: center;
+}
+
+/* Página redacao nota mil - imagem redacao*/
+.imagem-redacao{
+  height: 900px; 
+  width: 700px;
+}
