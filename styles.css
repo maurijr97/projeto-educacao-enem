@@ -24,7 +24,8 @@ a {
 
 .lista-menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  gap: 10px;
   list-style: none;
   padding: 15px;
 }
