@@ -22,6 +22,8 @@ a {
   text-decoration: none;
 }
 
+/*Configuração do Menu*/
+
 .container-lista {
   padding: 30px;
 }
@@ -60,7 +62,7 @@ a {
   background-color: var(--cor-terciaria);
   margin-top: -2px;
   padding-bottom: 12px;
-}
+} /*Configuração do Menu acaba aqui*/
 
 .lista-videos {
   display: flex;
