@@ -93,21 +93,24 @@ body{
 
 .container{
     display: flex;
-    
 }
 
-.container>img{
-    width: 30%;
-}
+.container-img{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
 
+}
 .img-redacao{
-    position: relative;
-    left: 15%;
-    top: 10%;
+    position: absolute;
+    width: 30%;
 }
 
 .img-estudante{
     position: relative;
+    width: 50%;
+    top: 4em;
 }
 
 
@@ -164,28 +167,40 @@ h2{
     font-family: Krona One, Arial, Arial, Helvetica, sans-serif;
     color: rgb(34, 212, 253)
 }
-.container02{
+
+.container02 {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 10%;
+    margin-left: 2%;
 }
 
-.container02>p{
+.content {
+    padding: 10px;
+}
+
+.content > p {
     color: white;
-    font-family: Krona One, Arial, Helvetica, sans-serif;
-    font-size: 12pt;
-    text-transform: capitalize;
-    
-    
-
-}
-.img03{
-    width: 25%;
-    margin-left: 5%;
-    border-radius: 5px;
+    font-size: larger;
+    font-family: Krona One, Arial, Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
 }
 
+.list{
+    margin-left: 2%;
+    color: white;
+    font-size: larger;
+    font-family: Krona One, Arial, Arial, Helvetica, sans-serif;
+    line-height: 2em;
+}
+
+.image {
+    width: 20%;
+    padding: 10px;
+}
+
+.image img {
+    max-width: 100%;
+}
 .redacao1000{
     text-align: center;
     color: white;
