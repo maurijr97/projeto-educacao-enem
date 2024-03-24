@@ -1,0 +1,205 @@
+/*Estilo padrão */
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"); /*importando a fonte de texto do google fonts */
+
+:root {
+  --cor-primaria: #000000;
+  --cor-secundaria: #f6f6f6;
+  --cor-terciaria: #22d4fd;
+  --cor-quartenaria: #068da9;
+  --fonte-primaria: "Krona One", sans-serif;
+  --fonte-secundaria: "Montserrat", sans-serif;
+  --fonte-terciaria: "Libre Baskerville", serif;
+  --fonte-quartenaria: "Playfair Display", serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Configuração do Menu*/
+
+.container-lista {
+  padding: 30px;
+}
+
+.lista-menu {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  /*gap: 10px;*/
+  /*padding: 15px;*/
+}
+
+.menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.menu-link {
+  display: block;
+  padding: 20px;
+}
+
+.lista-menu a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+  padding: 10px;
+  background-color: var(--cor-quartenaria);
+  color: var(--cor-secundaria);
+  border-radius: 03px;
+}
+
+.lista-menu a:hover {
+  background-color: var(--cor-terciaria);
+  margin-top: -2px;
+  padding-bottom: 12px;
+} /*Configuração do Menu acaba aqui*/
+
+.lista-videos {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  list-style: none;
+}
+
+.youtube-thumb {
+  height: 100px;
+}
+
+.texto-materia {
+  text-align: center;
+  color: var(--cor-terciaria);
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #003a69, #00d2da);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  padding: 15px;
+}
+
+/*Estilo da página de humanas */
+
+.titulo-principal-humanas {
+  padding: 35px;
+  margin: 40px 0 0 80px;
+  color: var(--cor-secundaria);
+}
+
+.titulo-cor-secundario {
+  color: var(--cor-terciaria);
+}
+
+.texto-secundario-humanas {
+  padding: 35px;
+  margin: 40px 0 0 80px;
+  color: var(--cor-secundaria);
+}
+
+.titulo-materias-humanas {
+  text-align: center;
+  padding: 35px;
+  margin-top: 15px;
+  color: var(--cor-secundaria);
+}
+
+.thumb-secundaria-humanas {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.thumb-video-humanas {
+  border-radius: 20px;
+}
+
+/*Estilo da página da natureza */
+.titulo-principal-natureza {
+  padding: 35px;
+  margin: 40px 0 0 80px;
+  color: var(--cor-secundaria);
+}
+
+.texto-secundario-natureza {
+  padding: 35px;
+  margin: 40px 0 0 80px;
+  color: var(--cor-secundaria);
+}
+
+.titulo-materias-natureza {
+  text-align: center;
+  padding: 35px;
+  margin-top: 15px;
+  color: var(--cor-secundaria);
+}
+
+.thumb-secundaria-natureza {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.thumb-video-natureza {
+  border-radius: 10px;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.imagem-menino {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.menino {
+  height: 450px;
+  border-radius: 10px;
+}
+
+.paragrafo-descritivo {
+  margin-top: 45px;
+}
+
+.titulo-secundario-natureza {
+  margin-top: 45px;
+}
+
+.titulo-resumo {
+  text-align: center;
+  color: var(--cor-secundaria);
+}
