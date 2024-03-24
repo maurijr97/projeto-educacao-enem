@@ -229,9 +229,9 @@ flex-direction: row;
 }
 
 /* PAGÍNA DE MATEMATICA*/
-.titulo_matematica { 
+.titulo_matematica h1{ 
   font-size: xx-large;
-  text-align:left;
+  text-align:center;
   font-family: var(--fonte-secundaria);
   color: var(--cor-terciaria)
 }
@@ -261,16 +261,16 @@ h2{
   
      font-family: var(--fonte-secundaria);
      color: var(--cor-secundaria); 
-     font-size: 30px;
+     font-size: x-large;
 }
 .sem_medo{
-  font-size: 30px;
+  font-size: x-large;
   color: var(--cor_matematica) 
 
 }
   
 .veja_videos{
-  font-size: 30px;
+  font-size: x-large;
 }
 
 .imagem_youtube{
@@ -304,6 +304,16 @@ h2{
   
 }
 .texto_linguagem{
+  padding: 30px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: x-large;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.veja_linguagem {
+
   padding: 30px;
   font-family: var(--fonte-secundaria);
   color: var(--cor-secundaria);
