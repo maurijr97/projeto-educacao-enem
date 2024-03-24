@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/*importando a fonte de texto do google fonts */
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22D4fd;
+    --cor-quartenaria: #068DA9;
+    --fonte-primaria: font-family: 'Krona One', sans-serif;
+    --fonte-secundaria: font-family: 'Montserrat', sans-serif;
+    --fonte-terciaria: font-family: "Libre Baskerville", serif;
+    --fonte-quartenaria: font-family: "Playfair Display", serif;
+}
+
+/*variaveis com as cores e fontes que usaremos no projeto - Aceito sugestões*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* menu */
+.container-lista {
+    padding: 30px;
+}
+
+.lista-menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    /*gap: 10px;*/
+    /*padding: 15px;*/
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.menu-link {
+    display: block;
+    padding: 20px;
+}
+
+.lista-menu a {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-secundaria);
+    border-radius: 03px;
+}
+
+.lista-menu a:hover {
+    background-color: var(--cor-terciaria);
+    margin-top: -2px;
+    padding-bottom: 12px;
+}
+
+/*Configuração do Menu acaba aqui*/
+
+
+
+
+
+/* minha formatação */
+body {
+    width: 100vw;
+    background: linear-gradient(to bottom, #0074D9, #001f3f);
+}
+
+.titulo {
+    line-height: 1.7em;
+    margin-left: 0.75em;
+    font-size: 3.5em;
+    color: white;
+    font-family: Krona One, Arial, Arial, Helvetica, sans-serif;
+}
+
+.textfield {
+    padding: 20px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textfield>p {
+    font-family: Krona One, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: start;
+    color: whitesmoke;
+    line-height: 1.5em;
+    margin-left: 4%;
+
+}
+
+.container {
+    display: flex;
+}
+
+.container-img {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+
+
+}
+
+.img-redacao {
+    position: relative;
+    width: 80%;
+
+}
+
+.img-estudante {
+    position: relative;
+    width: 80%;
+    bottom: 20%;
+}
+
+
+.main-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 20px;
+    background-color: rgba(34, 212, 253, 0.6);
+    width: 300px;
+    height: 350px;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card>h3 {
+    margin: 6px;
+    font-size: 20px;
+    font-family: Krona one, Arial, Arial, Helvetica, sans-serif;
+}
+
+.card>p {
+    margin: 10px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 0.90em;
+}
+
+.card>a {
+    text-decoration: none;
+
+}
+
+.link01 {
+    position: relative;
+
+}
+
+.link02 {
+    position: relative;
+
+}
+
+.link03 {
+    position: relative;
+
+}
+
+.card>iframe {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h2 {
+    margin-left: 4%;
+    margin-top: 5%;
+    font-size: 2.5em;
+    font-family: Krona One, Arial, Arial, Helvetica, sans-serif;
+    color: rgb(34, 212, 253)
+}
+
+.container02 {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.content {
+    padding: 10px;
+}
+
+.content>p {
+    color: white;
+    font-size: 1.5em;
+    font-family: Krona One, Arial, Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+.list {
+    margin-left: 2%;
+    color: white;
+    font-family: Krona One, Arial, Arial, Helvetica, sans-serif;
+    line-height: 2em;
+}
+
+.image {
+    width: 20%;
+    padding: 10px;
+    margin-left: 15%;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.redacao1000 {
+    text-align: center;
+    color: white;
+    font-family: Krona one, Arial, Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin: 50px;
+}
+
+.btn {
+    padding: 12px;
+    border-radius: 5px;
+    margin: 30px;
+    background-color: var(--cor-terciaria);
+    border: none;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.rodape__pagina {
+    width: 100vw;
+    background-color: var(--cor-terciaria);
+    padding: 10px;
+    text-align: center;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
