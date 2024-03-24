@@ -301,7 +301,7 @@ flex-direction: row;
   font-size: xx-large;
   text-align:center;
   font-family: var(--fonte-secundaria);
-  color: var(--cor-terciaria)
+  color: var(--cor-terciaria);
 }
 
 .apresentacao_conteudo_matematica{
