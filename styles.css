@@ -31,16 +31,17 @@
     padding-left: 30px;
   }
 
+/* Configuração Padrão - inseri a imagem azul de fundo*/
   body {
   background-image: url("img/fundo-azul.jpg");
   background-size:cover;
-}/* Configuração Padrão - inseri a imagem azul de fundo*/
+}
 
 /* Configuração Padrão - do menu da página*/
 #button_menu{
   padding: 10px;
 }
-
+/* Configuração Padrão - menu da pagina*/
 #button_menu li{
   display: inline;
 }
@@ -87,6 +88,7 @@ color: var(--cor-secundaria);
 border-radius: 02px
 }
 
+/* Configuração Padrão - menu */
 #button_login_cadastro li a:hover {
 background-color: var(--cor-terciaria);
 margin-top: -2px;
@@ -147,6 +149,8 @@ main{
     font-family: var(--fonte-secundaria);
     color: var(--cor-terciaria);   
 }
+
+/* Página sobre_nós - configuração do título sec. principal*/
 .apresentacao__conteudo__titulo{
   padding: 30px;
   font-family: var(--fonte-secundaria);
@@ -161,7 +165,7 @@ main{
   font-family: var(--fonte-secundaria);
   color: var(--cor-secundaria);
 }
-
+/* Página sobre_nós - configuração equipe*/
 .apresentacao__curso_lista{
   font-family: var(--fonte-secundaria);
   color: var(--cor-secundaria);
@@ -170,14 +174,13 @@ main{
 }
 
 /* Página sobre_nós - configuração do título*/
-
 .apresentacao__titulo_equipe{
   padding: 38px;
   font-family: var(--fonte-secundaria);
   color: var(--cor-terciaria);
   font-size: 24px;
 }
-
+/* Página sobre_nós - configuração equipe*/
 .apresentacao__equipe{
   display: flex;
   list-style: none;
@@ -189,7 +192,7 @@ main{
   justify-content: center;
   align-items: center;
 }
-
+/* Página sobre_nós - configuração equipe*/
 .apresentacao__equipe li{
   width: 200px;
   display: flex;
@@ -197,6 +200,7 @@ main{
   align-items: center;
 }
 
+/* Página sobre_nós - configuração equipe*/
 .equipe__lista_nome{
   font-family: var(--fonte-secundaria);
   color: var(--cor-secundaria);
@@ -204,6 +208,7 @@ main{
   text-align: center; 
 }
 
+/* Página sobre_nós - configuração equipe*/
 .equipe__lista_profissao{
   font-family: var(--fonte-secundaria);
   color: var(--cor-secundaria);
@@ -221,8 +226,167 @@ main{
 height: 30px;
 }
 
+/* Página sobre_nós - configuração apresentacao das redes sociais*/
 .apresentacao__rede-social{
 display: flex;
 flex-direction: row;
 }
 
+/* Página redacao_nota_mil - Titulo*/
+.apresentacao_titulo_redacao_nota_mil{
+  font-size: 28px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-terciaria);
+  padding: 38px 38px 38px 0px;
+}
+
+/* Página redacao nota mil - Titulo secundário*/
+.apresentacao_titulo-secundario_redacao_nota_mil{
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-terciaria);
+  font-size: 28px;
+  padding: 38px 38px 38px 0px;
+}
+
+/* Página redacao nota mil - Lista*/
+.lista_competencias{
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: 18px;
+  padding: 0px 100px 0px 2px;
+}
+
+/* Página redacao nota mil - competencia*/
+.modelo-competencia{
+  padding: 30px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* Página redacao nota mil - cartilha*/
+.cartilha{
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-terciaria);
+  font-size: 21px;
+}
+/* Página redacao nota mil - modelo redacao*/
+.modelo-redacao-nota-mil{
+  padding: 20px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: 20px;
+  display: flex;
+}
+/* Página redacao nota mil - subtitulo*/
+.subtitulo-redacao{
+  font-size: 24px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-terciaria);
+  padding: 18px 0px 0px 0px;
+  text-align: center;
+}
+
+/* Página redacao nota mil - imagem redacao*/
+.imagem-redacao{
+  height: 900px; 
+  width: 700px;
+}
+
+
+/* PAGÍNA DE MATEMATICA*/
+.titulo_matematica h1{ 
+  font-size: xx-large;
+  text-align:center;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-terciaria);
+}
+
+.apresentacao_conteudo_matematica{
+  padding: 30px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: x-large;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+p{ 
+  text-align:left;
+  color: var(--cor-secundaria) 
+  
+}
+h2{
+  font-size: xx-large;
+  text-align:left;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-terciaria)
+}
+
+.lista_matematica{
+  
+     font-family: var(--fonte-secundaria);
+     color: var(--cor-secundaria); 
+     font-size: x-large;
+}
+.sem_medo{
+  font-size: x-large;
+  color: var(--cor_matematica) 
+
+}
+  
+.veja_videos{
+  font-size: x-large;
+}
+
+.imagem_youtube{
+  height: 150px;
+}
+
+.videos_enem_matematica
+{
+  display: flex;
+  justify-content:space-around;
+}
+.imagem_pagina_matematica
+{
+
+  width: 250;
+}
+
+/*PAGINA DE LINGUAGENS*/
+
+.apresentacao_conteudo_titulo 
+{
+  font-size: xx-large;
+  text-align:left;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-terciaria)
+}
+.titulos_de_linguagem {
+  font-size: x-large;
+  font-family: var(--fonte-secundaria); 
+  color:var(--cor-quartenaria)
+  
+}
+.texto_linguagem{
+  padding: 30px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: x-large;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.veja_linguagem {
+
+  padding: 30px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: x-large;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
