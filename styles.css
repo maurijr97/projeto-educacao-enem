@@ -108,13 +108,12 @@ padding-bottom: 12px;
 
 /* Configuração Padrão - rodapé*/
 .rodape__pagina{
-    text-align: center; 
     background-color: var(--cor-terciaria);
-    color: var(--cor-primaria);
     padding: 15px;
-    font-family: var(--fonte-secundaria);
     font-size: 15px;
     font-weight: 100;
+    display: flex;
+    justify-content: center;
   }
 
   /* Página sobre_nós - configuração conteudo princiapal*/
@@ -297,7 +296,7 @@ flex-direction: row;
 
 
 /* PAGÍNA DE MATEMATICA*/
-.titulo_matematica h1{ 
+.titulo_matematica{ 
   font-size: xx-large;
   text-align:center;
   font-family: var(--fonte-secundaria);
