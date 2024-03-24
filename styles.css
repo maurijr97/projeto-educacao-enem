@@ -294,3 +294,99 @@ flex-direction: row;
   height: 900px; 
   width: 700px;
 }
+
+
+/* PAGÍNA DE MATEMATICA*/
+.titulo_matematica h1{ 
+  font-size: xx-large;
+  text-align:center;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-terciaria)
+}
+
+.apresentacao_conteudo_matematica{
+  padding: 30px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: x-large;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+p{ 
+  text-align:left;
+  color: var(--cor-secundaria) 
+  
+}
+h2{
+  font-size: xx-large;
+  text-align:left;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-terciaria)
+}
+
+.lista_matematica{
+  
+     font-family: var(--fonte-secundaria);
+     color: var(--cor-secundaria); 
+     font-size: x-large;
+}
+.sem_medo{
+  font-size: x-large;
+  color: var(--cor_matematica) 
+
+}
+  
+.veja_videos{
+  font-size: x-large;
+}
+
+.imagem_youtube{
+  height: 150px;
+}
+
+.videos_enem_matematica
+{
+  display: flex;
+  justify-content:space-around;
+}
+.imagem_pagina_matematica
+{
+
+  width: 250;
+}
+
+/*PAGINA DE LINGUAGENS*/
+
+.apresentacao_conteudo_titulo 
+{
+  font-size: xx-large;
+  text-align:left;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-terciaria)
+}
+.titulos_de_linguagem {
+  font-size: x-large;
+  font-family: var(--fonte-secundaria); 
+  color:var(--cor-quartenaria)
+  
+}
+.texto_linguagem{
+  padding: 30px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: x-large;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.veja_linguagem {
+
+  padding: 30px;
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: x-large;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
