@@ -1,96 +1,84 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #0c4387;
-            /* Azul escuro */
-            color: white;
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-        }
-
-        nav ul li {
-            margin-right: 20px;
-        }
-
-        nav ul li:last-child {
-            margin-right: 0;
-        }
-
-        a {
-            color: white;
-            text-decoration: none;
-        }
-
-        .login-signup {
-            display: flex;
-            align-items: center;
-        }
-
-        .login-signup a {
-            margin-right: 10px;
-        }
-    </style>
-</head>
-
 <body>
   <!DOCTYPE html>
   <html lang="pt-br">
-  <head>
-      <meta charset="UTF-8">
-      <link rel="stylesheet" href="styles.css">
-      <link rel="stylesheet" href="teste.js">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Projeto - Decola ENEM</title>
-      <link rel="stylesheet" href="./styles/styles.css">
-      <div>
-          <nav classe="login-cadastro">
-              <a class="link-login" href="login.html">Login </a>
-              <a class="link-cadastre-se" href="cadastre-se.html">Cadastre-se </a>
-          </nav>
-      </div>
-      <a class="cabecalho__menu__link" href="home.html"> <img class="logo-apresentacao" src="img/logo_docola_enem.png" href="home.html"> </a>
-  </head>
-      <body>
-      </div>
-          <header class="cabecalho"> 
-                  <nav cabecalho__menu>
-                          <a class="cabecalho__menu__link" href="sobre_nos.html">Sobre Nós </a>
-                          <a class="cabecalho__menu__link" href="redacao.html"> Redação </a>
-                          <a class="cabecalho__menu__link" href="linguagens.html"> Linguagens </a>
-                          <a class="cabecalho__menu__link" href="ciencias_natureza.html"> Ciências da Natureza </a>
-                          <a class="cabecalho__menu__link" href="ciencias_humanas.html"> Ciências Humanas </a>
-                          <a class="cabecalho__menu__link" href="matematica.html"> Matemática </a>
-                  </nav> 
-          </header>
-    <main>
-      <h1>Estude conosco e seja o protagonista da sua história!      </h1>
-      <p>Na plataforma você encontra videos, resumos, dicas e cronograma de estudos para mandar bem na próxima edição do Exame Nacional do Ensino Médio. Od conteudos estão organizados em Trilhas de Aprendizagem exclusivas para o Ensino Médio.</p> 
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="teste.js">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto - Decola ENEM</title>
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <div>
+            <ul id="button_login_cadastro">
+              <li>
+                <a class="link-cadastre-se" href="cadastre-se.html">Cadastre-se </a>
+              </li>
+              <li>
+                <a class="link-login" href="login.html">Login </a>
+              </li>
+            </ul>
+          </div>
+        </head>
+        <body>
+          <header>
+            <ul id="button_menu">
+              <div>
+                <a class="cabecalho__menu__link" href="home.html">
+                  <img
+                    class="logo-apresentacao"
+                    src="img/logo_docola_enem.png"
+                    href="home.html"
+                  />
+                </a>
+              </div>
+              <li>
+                <a href="sobre_nos.html">Sobre Nós </a>
+              </li>
+              <li>
+                <a href="redacao.html"> Redação </a>
+              </li>
+              <li>
+                <a href="linguagens.html"> Linguagens </a>
+              </li>
+              <li>
+                <a href="ciencias_natureza.html"> Ciências da Natureza </a>
+              </li>
+              <li>
+                <a href="ciencias_humanas.html"> Ciências Humanas </a>
+              </li>
+              <li>
+                <a href="matematica.html"> Matemática </a>
+              </li>
+            </ul>
 
-        <p>Os alunos, professores e escolas podem adotar a seleção de aulas para suporte aos alunos do 1º, do 2º, e do 3º ano.E, tanto para os preparatórios do Enem quanto para o suporte ao Ensino Médio, disponibilizamos um acervo vídeo para melhor explicação dos conteúdos abordados.</p>
-        <!-- Conteúdo da página -->
+        </header>
+
+    </head>
+    <body>
+
+    <main>
+        <h2 class = "apresentacao__titulo">Estude conosco e seja <br> o protagonista da sua história!</h2>
+      <section class="apresentacao__conteudo__sobrenos">
+        <p>Na plataforma você encontra videos, resumos, dicas e cronograma de estudos para mandar
+        bem na próxima edição do Exame Nacional do Ensino Médio.
+        Os conteudos estão organizados em Trilhas de Aprendizagem exclusivas para o Ensino Médio.<br>
+        <br>Os alunos, professores e escolas podem adotar a seleção de aulas para suporte aos alunos
+        do 1º, do 2º, e do 3º ano.E, tanto para os preparatórios do Enem quanto para o suporte
+        ao Ensino Médio, disponibilizamos um acervo vídeo para melhor explicação dos conteúdos abordados.</p>
+
+        <a><img class="imagem__destaque__sobre__nos" src="img/img_estudantes.png"
+            alt="imagem__estutante"></a>
+
+      </section>
+
     </main>
+
+    <footer class="rodape__pagina">
+        <p> Desenvolvido pela equipe projeto integrador Proz - 2024 ©  </p>
+    </footer>
+
 </body>
 
 </html>

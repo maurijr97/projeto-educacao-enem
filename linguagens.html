@@ -1,62 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="teste.js">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto - Decola ENEM</title>
-  </head>
-  <body>
-    <header class="cabecalho">
-      <div>
-        <nav classe="login-cadastro">
-          <a class="link-login" href="login.html">Login </a>
-          <a class="link-cadastre-se" href="cadastre-se.html">Cadastre-se </a>
-        </nav>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <div>
+        <ul id="button_login_cadastro">
+          <li>
+            <a class="link-cadastre-se" href="cadastre-se.html">Cadastre-se </a>
+          </li>
+          <li>
+            <a class="link-login" href="login.html">Login </a>
+          </li>
+        </ul>
       </div>
-      <a class="cabecalho_menu_link" href="home.html">
-        <img
-          class="logo-apresentacao"
-          src="img/logo_docola_enem.png"
-          href="home.html"
-          height="300px"
-        />
-      </a>
-      <nav cabecalho__menu>
-        <a class="cabecalho_menu_link" href="sobre_nos.html">Sobre Nós </a>
-        <a class="cabecalho_menu_link" href="redacao.html"> Redação </a>
-        <a class="cabecalho_menu_link" href="linguagens.html"> Linguagens </a>
-        <a class="cabecalho_menu_link" href="ciencias_natureza.html">
-          Ciências da Natureza
-        </a>
-        <a class="cabecalho_menu_link" href="ciencias_humanas.html">
-          Ciências Humanas
-        </a>
-        <a class="cabecalho_menu_link" href="matematica.html"> Matemática </a>
-      </nav>
-    </header>
+    </head>
+    <body>
+      <header>
+        <ul id="button_menu">
+          <div>
+            <a class="cabecalho_menu_link" href="home.html">
+              <img
+                class="logo-apresentacao"
+                src="img/logo_docola_enem.png"
+            href="home.html"
+              />
+            </a>
+            </div>
+          <li>
+            <a href="sobre_nos.html">Sobre Nós </a>
+          </li>
+          <li>
+            <a href="redacao.html"> Redação </a>
+          </li>
+          <li>
+            <a href="linguagens.html"> Linguagens </a>
+          </li>
+          <li>
+            <a href="ciencias_natureza.html"> Ciências da Natureza </a>
+          </li>
+          <li>
+            <a href="ciencias_humanas.html"> Ciências Humanas </a>
+          </li>
+          <li>
+            <a href="matematica.html"> Matemática </a>
+          </li>
+        </ul>
+      </header>
 
     <main>
       <section>
-        <h1 class="apresentacao_conteudo_titulo"><b>Linguagens, Códigos e suas Tecnologias:</b></h1>
-        <p> <span style="color:rgb(255, 94, 0)"><b>Português, Literatura, Língua Estrangeira, Artes, Educação Física e Tecnologias da Informação e Comunicação</b></span> </p>
+        <h1 class="apresentacao_conteudo_titulo"><b>Linguagens, Códigos e suas Tecnologias</b></h1>
+        <p class="titulos_de_linguagem"><b>Português, Literatura, Língua Estrangeira, Artes, Educação Física e Tecnologias da Informação e Comunicação</b></p>
 
-       <div align="center">
-        <p>Linguagens, Códigos e suas Tecnologias é uma prova do Enem que testa conhecimentos 
-          relacionados aos conteúdos de língua portuguesa, literatura,língua estrangeira, artes, educação física e tecnologias da informação e comunicação.</p>
+       <div>
+        <p class="texto_linguagem">Linguagens, códigos e suas tecnologias é a prova do Enem em que são testados conhecimentos relacionados aos conteúdos de língua portuguesa, literatura, língua estrangeira, artes, educação física e tecnologias da informação e comunicação. 
+          O principal objetivo da prova é verificar a capacidade dos(as) participantes de interpretar textos.</p>
         </div>
-        <img src="img/img_estudantes.png" width="300" height="300" alt="left" aling="right">
+        <img src="img/img_estudantes.png" width="500" height="500" alt="left" aling="right">
 
-        <div align="center">
-          <p>Matérias que você deve estudar para o Enem.</p>
-          
-          <a href="#" ><img src="./img/youtube-card.png" alt="youtube-card" height="100"/></a>
-          <a href="#" ><img src="./img/youtube-card.png" alt="youtube-card" height="100"/></a>
-          <a href="#" ><img src="./img/youtube-card.png" alt="youtube-card" height="100"/></a>
-          <a href="#" ><img src="./img/youtube-card.png" alt="youtube-card" height="100"/></a>
-          <a href="#" ><img src="./img/youtube-card.png" alt="youtube-card" height="100"/></a>
+  
+          <p class="veja_linguagem">Matérias que você deve estudar para o Enem.</p>
 
-        </div>
+          <div class="videos_enem_linguagem">
+
+            <a class="linguagem_um" href="https://youtu.be/n3JwiB-XYP8?si=9F2MytBf_UVZHEKx">
+              <img src="img/youtube-card.png" height="200"/>
+           </a>
+
+           <a class="linguagem_dois" href="https://youtu.be/8jRs5CZwbQM?si=77cuDlo9cNj_7L9R">
+            <img src="img/youtube-card.png" height="200"/>
+          </a>
+
+          <a class="linguagem_tres" href="https://youtu.be/b4sAM4MAkm8?si=oox1mTQ1pqlSGfdR">
+            <img src="img/youtube-card.png" height="200"/>
+          </a>
+          <a class="linguagem_quatro" href="https://youtu.be/0Rxrvt34Rm8?si=eURbscPPaTJgt9PH">
+            <img src="img/youtube-card.png" height="200"/>
+           </a>
+           <a class="linguagem_cinco" href="https://youtu.be/0Rxrvt34Rm8?si=S-RbkAw1k_ygpvjw">
+            <img src="img/youtube-card.png" height="200"/>
+           </a>
+           <a class="linguagem_seis" href="https://youtu.be/cT2zb5JGeq4?si=Y_z7_C5oKezRTdTb">
+            <img src="img/youtube-card.png" height="200"/>
+            </a>
+          </div>
        </div>
       </section>
     </main>
